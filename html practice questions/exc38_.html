@@ -1,0 +1,86 @@
+<html>
+<style>
+	table, th, td {
+  border: 1px solid black;
+  padding: 5px;
+}
+th{
+	padding:2 15px;
+	color:#FF0000;
+	font-size:30px;
+	background-color:#FFFFAA;
+
+}
+tr{
+	color:black;
+	background-color:#00CCFF;
+}
+input,select,textarea{
+	background-color:#CCFFCC;
+	font-size:16px;
+}
+	table{
+		border-spacing: 5px;
+		padding:0;
+		margin:20px;
+		width:50%;
+		border:3px solid black;
+	}
+</style>
+	<body>
+		<form >
+		<table>
+			<tr><th colspan="2">User Form </th></tr>
+			<tr><td>Enter Name </td>
+				<td><input type="text" name="name"></td></tr>
+			
+			<tr><td>Enter <br>Password </td>
+				<td><input type="password" name="pwd"></td></tr>
+			
+			<tr><td>Enter <br>Address</td>
+				<td><textarea rows="3"></textarea></td></tr>
+			
+			<tr><td>Select Game </td>
+				<td>
+					<input type="checkbox" name="Hockey" id="Hockey">
+					<label for= "Hockey">Hockey</label><br>
+
+					<input type="checkbox" name="Football" id="Football">
+					<label for= "Football">Football</label><br>
+
+					<input type="checkbox" name="Badminton" id="Badminton">
+					<label for= "Badminton">Badminton</label><br>
+
+				<input type="checkbox" name="Cricket"id="Cricket">
+					<label for= "Cricket">Cricket</label><br>
+
+				<input type="checkbox" name="volleyball" id="volleyball">
+					<label for= "volleyball">volleyball</label><br></td></tr>
+
+				
+				<tr><td>Gender</td>
+					<td>
+						<input type="radio" id = male name="Gender">
+						<label for=male>Male</label>
+						<input type="radio" id = female name="Gender">
+						<label for=female>Female</label>
+					</td></tr>
+				
+				<tr><td>Select ur age</td>
+					<td><select><option value="select">select</option>
+						<option value="15">15</option>
+						<option value="16">16</option>
+						<option>17</option>
+						<option>more than 17</option></select></td></tr>
+				
+				<tr ><td colspan="2"><center><input type="file"></td></tr></center>
+				
+				<tr ><td colspan="2">
+					<center><input type="button" value= "click Me" style="width:32%;height:40px;">
+					<input type="button" value= "Reset" style="width:32%;height:40px;">
+					<input type="button" value= "Submit Form" style="width:32%;height:40px;"></td></tr>
+				</center>
+		</table>
+	</form>
+	</body>
+</html>

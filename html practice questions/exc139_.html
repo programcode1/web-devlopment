@@ -1,0 +1,10 @@
+<!--. How to specify one or more forms the output element belongs to?-->
+<html>
+<body>
+<form oninput="second_output.value=parseInt(a.value)+parseInt(b.value)" id="MyForm">
+<input type="number" name="b" value="50" /> +
+<input type="number" name="a" value="10" /> =
+</form>
+<output form="MyForm" name="second_output" for="x y"></output>
+</body>
+</html>
